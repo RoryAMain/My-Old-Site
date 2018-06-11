@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Rory Main</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+    <style type="text/css">
+        body {
+            padding-top: 5rem;
+        }
+
+        .top-row {
+            padding: 3rem 1.5rem;
+            text-align:left;
+        }
+        
+        .panel-row{
+            height: 200px;
+        }
+        .panel {
+            text-align: center;
+            height: inherit;
+        }
+        
+        
+    .img__description_layer {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #00bc8c;
+      color: #fff;
+      visibility: hidden;
+      opacity: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      /* transition effect. not necessary */
+      transition: opacity .2s, visibility .2s;
+    }
+        
+    .img__wrap:hover .img__description_layer {
+        visibility: visible;
+        opacity: 1;
+    }
+        
+    .img__description {
+      transition: .2s;
+      transform: translateY(1em);
+    }
+    
+    .img__wrap:hover .img__description {
+      transform: translateY(0);
+    }
+    </style>
+</head>
+
+    
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/Shruke">Github</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="https://shruke.github.io/Theseus/">Theseus</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+        
+        <div class="top-row row jumbotron">
+            <div class="col-4">
+                <img src="FrogMan.png" height=100 width=150>
+            </div>
+            
+            <div class="col-8">
+                <h1 style="text-align: left">
+                    Rory Main
+                </h1>
+                <p class="lead">
+                    Here I'm gonna put a paragraph talking about me and the shit I know and other stuff to get people to hire me and shit.
+                </p>
+            </div>
+        </div>
+        
+        <div class = "panel-row row">
+            <div class="col-4 panel">
+                <div class="card mb-3" style="height:inherit; width:inherit;">
+                    <h3 class="card-header">
+                        Github
+                    </h3>
+                    <a href="https://github.com/Shruke" style="height:inherit; width:inherit;" class="img__wrap">
+                        <img class="img__img" style="height:89%; width:inherit;" src="FrogMan.png" alt="Card image">
+                        <div class="img__description_layer" style="margin-top: 55px; margin-bottom:-20px">
+                           <h3 class="img__description">
+                                Visit my Github
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-4 panel">
+                <div class="card mb-3" style="height:inherit; width:inherit;">
+                    <h3 class="card-header">
+                        Contact Me
+                    </h3>
+                    <a href="https://shruke.github.io/Theseus/" style="height:inherit; width:inherit;" class="img__wrap">
+                        <img class="img__img" style="height:89%; width:inherit;" src="FrogMan.png" alt="Card image">
+                        <div class="img__description_layer" style="margin-top: 55px; margin-bottom:-20px">
+                           <h3 class="img__description">
+                                Get my contact info.
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-4 panel">
+                <div class="card mb-3" style="height:inherit; width:inherit;">
+                    <h3 class="card-header">
+                        Resume
+                    </h3>
+                    <a href="https://shruke.github.io/Theseus/" style="height:inherit; width:inherit;" class="img__wrap">
+                        <img class="img__img" style="height:89%; width:inherit;" src="FrogMan.png" alt="Card image">
+                        <div class="img__description_layer" style="margin-top: 55px; margin-bottom:-20px">
+                           <h3 class="img__description">
+                                Download my resume.
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        
+        <div class = "panel-row row">
+            <div class="col-4 panel">
+                <div class="card mb-3" style="height:inherit; width:inherit;">
+                    <h3 class="card-header">
+                        Twitter
+                    </h3>
+                    <a href="https://twitter.com/TheMain_Course" style="height:inherit; width:inherit;" class="img__wrap">
+                        <img class="img__img" style="height:89%; width:inherit;" src="FrogMan.png" alt="Card image">
+                        <div class="img__description_layer" style="margin-top: 55px; margin-bottom:-20px">
+                            <h3 class="img__description">
+                                Visit my Twitter.
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-4 panel">
+                <div class="card mb-3" style="height:inherit; width:inherit;">
+                    <h3 class="card-header">
+                        Theseus
+                    </h3>
+                    <a href="https://shruke.github.io/Theseus/" style="height:inherit; width:inherit;" class="img__wrap">
+                        <img class="img__img" style="height:89%; width:inherit;" src="FrogMan.png" alt="Card image">
+                        <div class="img__description_layer" style="margin-top: 55px; margin-bottom:-20px">
+                           <h3 class="img__description">
+                                Check out this small game I made.
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="col-4 panel">
+                <div class="card mb-3" style="height:inherit; width:inherit;">
+                    <h3 class="card-header">
+                        Silly Art
+                    </h3>
+                    <a href="https://shruke.github.io/Theseus/" style="height:inherit; width:inherit;" class="img__wrap">
+                        <img class="img__img" style="height:89%; width:inherit;" src="FrogMan.png" alt="Card image">
+                        <div class="img__description_layer" style="margin-top: 55px; margin-bottom:-20px">
+                           <h3 class="img__description">
+                                Nothing of value here.
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    
+</body>
+</html>
