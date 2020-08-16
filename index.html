@@ -10,8 +10,7 @@
     <title>Rory Main</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <style type="text/css">
         body {
@@ -22,7 +21,7 @@
             padding: 3rem 1.5rem;
             text-align:left;
         }
-        
+
         .panel-row{
             height: 200px;
         }
@@ -30,8 +29,8 @@
             text-align: center;
             height: inherit;
         }
-        
-        
+
+
     .img__description_layer {
       position: absolute;
       top: 0;
@@ -49,136 +48,81 @@
       /* transition effect. not necessary */
       transition: opacity .2s, visibility .2s;
     }
-        
+
     .img__wrap:hover .img__description_layer {
         visibility: visible;
         opacity: 1;
     }
-        
+
     .img__description {
       transition: .2s;
       transform: translateY(1em);
     }
-    
+
     .img__wrap:hover .img__description {
       transform: translateY(0);
     }
-        
-    div.blackHeader {
-        width:100%; clear:both; height:30px;
-        }
-	div.blackHeader div.headPiece{
-        background:#333; width:5%; float:left; height:30px;
-        }
-        
-    div.blackHeader div.headPiece p {
-        color: white;text-align: center;padding-top: 5px;
-    }
-        div.blackHeader div.headPiece p a {
-            color: white;text-decoration: none;
-    }
-
-    div.logoBar {
-        width:100%; clear:both; height:70px;
-        }
-	div.logoBar div.barPiece {
-        background:#00bc8c; width:20%; height:70px; border-bottom:1px solid #00bc8c; float:left;
-        }
-	div.logoBar h1 {
-        color:#333; text-align:center; font-size:30px; padding-top:12px; font-weight:normal;
-        }
-		div.logoBar h1 a {
-            color: #333; padding-bottom: 2px;
-        }
     </style>
-    
-    <link rel="stylesheet" href="bigRedButton.css">
-    
+
 </head>
 
-    
-<body style="margin-top: -80px;" class="ignoreMe">
 
-    <div class="blackHeader ignoreMe">
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-        <div class="headPiece"></div>
-    </div>
+<body style="margin-top: -80px;">
 
-    <div class="logoBar ignoreMe">
-        <div class="barPiece"></div>
-        <div class="barPiece"></div>
-        <div class="barPiece">
-            <h1 class="ignoreMe" style="color:white;"><b class="ignoreMe">Rory Main</b></h1>
+    <div class="logoBar">
+        <div>
+            <h1 style="color:white;"><b class="ignoreMe">Rory Main</b></h1>
         </div>
-        <div class="barPiece"></div>
-        <div class="barPiece"></div>
+
     </div>
 
-    <main role="main" class="container ignoreMe">
-        
-        <br class="ignoreMe">
-        
+    <main role="main" class="container">
+
+        <br>
+
         <div class="top-row row jumbotron">
-            <div class="col-4 ignoreMe">
-                <div class= "ignoreMe">
-                    <img class="ignoreMe" src="Me.jpg" height=auto; width=100%>
+            <div class="col-4">
+                <div>
+                    <img src="Me.jpg" height=auto; width=100%>
                 </div>
             </div>
-            
-            <div class="col-8 ignoreMe">
-                <div class= "ignoreMe">
-                    <h3 style="text-align: left" class="ignoreMe">
+
+            <div class="col-8">
+                <div>
+                    <h3 style="text-align: left">
                     Brief Intro:
                 </h3>
                 </div>
-                <div class="ignoreMe">
-                    <p class="lead ignoreMe">
-                        Hey, I'm Rory Main <small><sup>(if you didn't already catch that.)</sup></small>
-                        <br class="ignoreMe">
-                        <br class="ignoreMe">
-                        I'm a recent graduate from the University of Alaska Anchorage, with a <em class="ignoreMe">Bachelors of Science in Computer Science</em>.
-                        
-                        <br class="ignoreMe">
-                        <br class="ignoreMe">
-                        I'm still working on starting a career, so for now I'm buffing up my resume by working on side projects, which you can check out below.
-                        
-                        <br class="ignoreMe">
-                        <br class="ignoreMe">
-                        Feel free to contact me at <a href="mailto:roryamain@gmail.com" class="ignoreMe">RoryAMain@gmail.com</a>
+                <div>
+                    <p class="lead">
+                        Hey, I'm Rory Main
+                        <br>
+                        <br>
+                        I'm a recent graduate from the University of Alaska Anchorage, with a <em>Bachelors of Science in Computer Science</em>.
+
+                        <br>
+                        <br>
+                        I'm currently working as a Programmer for the Anchorage School District.
+
+                        <br>
+                        <br>
+                        Feel free to contact me at <a href="mailto:roryamain@gmail.com">RoryAMain@gmail.com</a>
                     </p>
                 </div>
             </div>
         </div>
-        
-        <div class = "panel-row row ignoreMe">
+
+        <div class = "panel-row row">
             <div class="col-4 panel">
-                <div class="card mb-3 ignoreMe" style="height:inherit; width:inherit; background-color: white;">
-                    <h3 class="card-header ignoreMe">
+                <div class="card mb-3" style="height:inherit; width:inherit; background-color: white;">
+                    <h3 class="card-header">
                         Github
                     </h3>
                     <div class="ignoreMe">
-                        <a href="https://github.com/Shruke" style="height:120px; width:120px; background-color: white;" class="img__wrap ignoreMe">
-                            <img class="img__img ignoreMe" style="height:inherit; width:inherit; margin-top:10px;" src="GitHub-Mark-120px-plus.png" alt="Card image">
-                            <div class="img__description_layer ignoreMe" style="margin-top: 55px;">
-                               <h3 class="img__description ignoreMe">
+                        <a href="https://github.com/Shruke" style="height:120px; width:120px; background-color: white;" class="img__wrap">
+                            <img class="img__img" style="height:inherit; width:inherit; margin-top:10px;" src="GitHub-Mark-120px-plus.png" alt="Card image">
+                            <div class="img__description_layer" style="margin-top: 55px;">
+                               <h3 class="img__description">
                                     Visit my Github
                                 </h3>
                             </div>
@@ -186,35 +130,17 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-4 panel">
-                <div class="card mb-3 ignoreMe" style="height:inherit; width:inherit; background-color: white;">
-                    <h3 class="card-header ignoreMe">
-                        Theseus
-                    </h3>
-                    <div class="ignoreMe">
-                        <a href="https://shruke.github.io/Theseus/" style="height:120px; width:120px; background-color: white; " class="img__wrap ignoreMe">
-                            <img class="img__img ignoreMe" style="height:inherit; width:inherit;margin-top:10px;" src="minotaur.svg" alt="Card image">
-                            <div class="img__description_layer ignoreMe" style="margin-top: 55px;">
-                               <h3 class="img__description ignoreMe">
-                                    Small game I made.
-                                </h3>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="col-4 panel">
-                <div class="card mb-3 ignoreMe" style="height:inherit; width:inherit; background-color: white;">
-                    <h3 class="card-header ignoreMe">
+                <div class="card mb-3" style="height:inherit; width:inherit; background-color: white;">
+                    <h3 class="card-header">
                         Resume
                     </h3>
-                    <div class="ignoreMe">
+                    <div>
                         <a href="RoryMainResume.pdf" style="height:120px; width:120px; background-color: white;" class="img__wrap ignoreMe">
                             <img class="img__img ignoreMe" style="height:inherit; width:inherit; margin-top:10px;" src="curriculum.svg" alt="Card image">
-                            <div class="img__description_layer ignoreMe" style="margin-top: 55px;">
-                               <h3 class="img__description ignoreMe">
+                            <div class="img__description_layer" style="margin-top: 55px;">
+                               <h3 class="img__description">
                                     View my Resume
                                 </h3>
                             </div>
@@ -222,22 +148,16 @@
                     </div>
                 </div>
             </div>
-        </div>    
-        
-        <div class = "row col-12" style="margin-top:125px;">
-            <div class="center jGravity ignoreMe">
-                <div class="select-button ignoreMe" style="color:black;"><b>DO NOT PUSH</b></div>
-            </div>
         </div>
-        
-        <div class="ignoreMe">
+
+        <div>
             <div style="margin-top: 250px; text-align: center; font-size:50%;" class="ignoreMe">Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market" class="ignoreMe">Vectors Market</a> and <a href="http://www.freepik.com" title="Freepik" class="ignoreMe">Freepik</a>  from <a href="https://www.flaticon.com/" title="Flaticon" class="ignoreMe">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank" rel="noopener noreferrer" class="ignoreMe">CC 3.0 BY</a></div>
         </div>
-        
-        
-        
+
+
+
     </main>
-    
+
     <!-- /.container -->
 
 
@@ -247,25 +167,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    
-    <script src="jGravity.js"></script>
-    
-    <script>
-        $(document).ready(() => {
-            $('div.jGravity').on('click', () => { // This can be changed to anything you like in order to trigger jGravity effect
-                $('div.jGravity').remove();
-                $('body').jGravity({ // jGravity works best when targeting the body
-                    target: 'everything', // Enter your target critera e.g. 'div, p, span', 'h2' or 'div#specificDiv', or even 'everything' to target everything in the body
-                    ignoreClass: 'ignoreMe', // Specify if you would like to use an ignore class, and then specify the class
-                    weight: 25, // Enter any number 1-100 ideally (25 is default), you can also use 'heavy' or 'light'
-                    depth: 5, // Enter a value between 1-10 ideally (1 is default), this is used to prevent targeting structural divs or other items which may break layout in jGravity
-                    drag: true // Decide if users can drag elements which have been effected by jGravity
-                });
 
-            });
-        });
-    </script>
 
-    
 </body>
 </html>
